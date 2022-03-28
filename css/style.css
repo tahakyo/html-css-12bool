@@ -1,0 +1,17 @@
+html {
+    font-weight: bold;
+}
+
+.row {
+    height: 100%;
+}
+
+.box {
+    /* test */
+    width: 100%;
+    border: 2px solid white;
+    background-color: #006cfa;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

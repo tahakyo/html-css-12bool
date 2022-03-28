@@ -10,6 +10,7 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+
 .container-fluid {
     width: 100%;
 }
@@ -19,4 +20,25 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+   
+}
+
+/* Col */
+.col {
+    max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+[class*="col-"] {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+
+/* XS VIEWPORT */
+
+.col-xs-1 {
+    flex-basis: calc((100% / 12) * 1);
 }
