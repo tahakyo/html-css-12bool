@@ -14,6 +14,9 @@ html {
     text-align: center;
     color: white;
 }
+section {
+    margin: 20px auto;
+}
 
 .nested-box {
     height: 100%;
